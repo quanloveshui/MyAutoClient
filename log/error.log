@@ -1,0 +1,851 @@
+2017-02-21 16:51:28,612  - ERROR :  HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /asset (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x101b6d6a0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+2017-02-22 11:44:44,079  - ERROR :  HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /asset (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x1023504a8>: Failed to establish a new connection: [Errno 61] Connection refused',))
+2017-02-22 17:29:14,336  - ERROR :  ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2017-02-22 18:10:43,275  - ERROR :  API授权失败
+2017-02-22 18:11:56,736  - ERROR :  API授权失败
+2017-02-22 18:12:40,274  - ERROR :  API授权失败
+2017-02-22 18:12:48,260  - ERROR :  API授权失败
+2017-02-22 18:13:55,698  - ERROR :  API授权失败
+2017-02-22 18:14:13,697  - ERROR :  API授权失败
+2017-02-22 19:02:36,583  - ERROR :  None
+2017-02-23 09:17:51,995  - ERROR :  资产不存在
+2017-02-23 09:20:58,971  - ERROR :  资产不存在
+2017-02-23 09:40:52,124  - ERROR :  资产更新异常
+2017-02-23 09:41:58,601  - ERROR :  资产更新异常
+2017-02-23 09:49:12,592  - ERROR :  资产更新异常
+2017-02-23 09:50:17,132  - ERROR :  资产更新异常
+2017-02-23 09:52:17,621  - ERROR :  资产更新异常
+2017-02-23 09:55:15,712  - ERROR :  资产更新异常
+2017-02-23 09:56:33,072  - ERROR :  资产更新异常
+2017-02-23 10:00:09,356  - ERROR :  资产更新异常
+2017-02-23 10:01:32,992  - ERROR :  资产更新异常
+2017-02-23 10:02:45,313  - ERROR :  资产更新异常
+2017-04-14 12:20:20,821  - ERROR :  失败
+2020-04-03 17:22:29,769  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 47, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 17, in os_platform
+    output = self.exec_shell_cmd('uname')
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 57, in exec_shell_cmd
+    output = func(cmd)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 40, in ssh
+    ssh.connect(hostname=self.hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.PASSWD)
+AttributeError: module 'config.settings' has no attribute 'PASSWD'
+
+2020-04-03 17:23:15,215  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 47, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 17, in os_platform
+    output = self.exec_shell_cmd('uname')
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 57, in exec_shell_cmd
+    output = func(cmd)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 40, in ssh
+    ssh.connect(hostname=self.hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.PASSWD)
+AttributeError: module 'config.settings' has no attribute 'PASSWD'
+
+2020-04-03 17:23:33,328  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 47, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 17, in os_platform
+    output = self.exec_shell_cmd('uname')
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 57, in exec_shell_cmd
+    output = func(cmd)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 40, in ssh
+    ssh.connect(hostname=self.hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.PASSWD)
+AttributeError: module 'config.settings' has no attribute 'PASSWD'
+
+2020-04-03 17:24:44,150  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 47, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 17, in os_platform
+    output = self.exec_shell_cmd('uname')
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 57, in exec_shell_cmd
+    output = func(cmd)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 40, in ssh
+    ssh.connect(hostname=self.hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.PASSWD)
+AttributeError: module 'config.settings' has no attribute 'PASSWD'
+
+2020-04-03 17:26:22,139  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 47, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 17, in os_platform
+    output = self.exec_shell_cmd('uname')
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 58, in exec_shell_cmd
+    output = func(cmd)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 40, in ssh
+    ssh.connect(hostname=self.hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.PASSWD)
+AttributeError: module 'config.settings' has no attribute 'PASSWD'
+
+2020-04-03 17:26:48,798  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 47, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 17, in os_platform
+    output = self.exec_shell_cmd('uname')
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 59, in exec_shell_cmd
+    output = func(cmd)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 40, in ssh
+    ssh.connect(hostname=self.hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.PASSWD)
+AttributeError: module 'config.settings' has no attribute 'PASSWD'
+
+2020-04-03 17:27:25,281  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 47, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 17, in os_platform
+    output = self.exec_shell_cmd('uname')
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 59, in exec_shell_cmd
+    output = func(cmd)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 41, in ssh
+    ssh.connect(hostname=self.hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.PASSWD)
+AttributeError: module 'config.settings' has no attribute 'PASSWD'
+
+2020-04-03 17:27:44,480  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 47, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 17, in os_platform
+    output = self.exec_shell_cmd('uname')
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 60, in exec_shell_cmd
+    output = func(cmd)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 41, in ssh
+    ssh.connect(hostname=self.hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.PASSWD)
+AttributeError: module 'config.settings' has no attribute 'PASSWD'
+
+2020-04-03 17:28:05,576  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 47, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 17, in os_platform
+    output = self.exec_shell_cmd('uname')
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 61, in exec_shell_cmd
+    output = func(cmd)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 41, in ssh
+    ssh.connect(hostname=self.hostname, port=settings.SSH_PORT, username=settings.SSH_USER, password=settings.PASSWD)
+AttributeError: module 'config.settings' has no attribute 'PASSWD'
+
+2020-04-03 17:30:26,387  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 48, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 29, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:30:49,222  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 48, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 29, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:31:41,168  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 48, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 29, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:32:56,046  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 51, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:34:15,212  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 51, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:35:46,046  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 51, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:35:57,880  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 51, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:36:28,339  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 52, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:37:23,802  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 51, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:38:07,696  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 51, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:38:24,772  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 51, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:38:55,785  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 52, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:39:31,761  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 51, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:39:42,871  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 51, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:39:59,784  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 51, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:40:15,774  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 51, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:40:46,011  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 51, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:41:17,394  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 51, in linux
+    'os_version': self.os_version(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 31, in os_version
+    result = output.strip().split('\n')[0]
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:41:34,712  - ERROR :  192.168.149.129 linux cpu plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 21, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 42, in parse
+    for item in content.split('\n\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:41:34,882  - ERROR :  192.168.149.129 linux disk plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 38, in parse
+    for row_line in content.split("\n\n\n\n"):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:41:35,032  - ERROR :  192.168.149.129 linux mainboard plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 20, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 37, in parse
+    for item in content.split('\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:41:35,192  - ERROR :  192.168.149.129 linux memory plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 46, in parse
+    devices = content.split('Memory Device')
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:41:35,505  - ERROR :  192.168.149.129 linux nic plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 22, in linux
+    interfaces_info = self.linux_interfaces()
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 43, in linux_interfaces
+    ifaces = self._interfaces_ip(cmd1 + '\n' + cmd2)
+TypeError: can't concat str to bytes
+
+2020-04-03 17:41:56,615  - ERROR :  192.168.149.129 linux cpu plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 21, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 42, in parse
+    for item in content.split('\n\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:41:56,771  - ERROR :  192.168.149.129 linux disk plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 38, in parse
+    for row_line in content.split("\n\n\n\n"):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:41:56,921  - ERROR :  192.168.149.129 linux mainboard plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 20, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 37, in parse
+    for item in content.split('\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:41:57,072  - ERROR :  192.168.149.129 linux memory plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 46, in parse
+    devices = content.split('Memory Device')
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:41:57,370  - ERROR :  192.168.149.129 linux nic plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 22, in linux
+    interfaces_info = self.linux_interfaces()
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 43, in linux_interfaces
+    ifaces = self._interfaces_ip(cmd1 + '\n' + cmd2)
+TypeError: can't concat str to bytes
+
+2020-04-03 17:43:12,135  - ERROR :  192.168.149.129 linux cpu plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 21, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 42, in parse
+    for item in content.split('\n\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:43:12,289  - ERROR :  192.168.149.129 linux disk plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 38, in parse
+    for row_line in content.split("\n\n\n\n"):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:43:12,448  - ERROR :  192.168.149.129 linux mainboard plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 20, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 37, in parse
+    for item in content.split('\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:43:12,609  - ERROR :  192.168.149.129 linux memory plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 46, in parse
+    devices = content.split('Memory Device')
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:43:12,910  - ERROR :  192.168.149.129 linux nic plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 22, in linux
+    interfaces_info = self.linux_interfaces()
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 43, in linux_interfaces
+    ifaces = self._interfaces_ip(cmd1 + '\n' + cmd2)
+TypeError: can't concat str to bytes
+
+2020-04-03 17:52:45,999  - ERROR :  192.168.149.129 linux cpu plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 21, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 42, in parse
+    for item in content.split('\n\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:52:46,145  - ERROR :  192.168.149.129 linux disk plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 38, in parse
+    for row_line in content.split("\n\n\n\n"):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:52:46,297  - ERROR :  192.168.149.129 linux mainboard plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 20, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 37, in parse
+    for item in content.split('\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:52:46,448  - ERROR :  192.168.149.129 linux memory plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 46, in parse
+    devices = content.split('Memory Device')
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:52:46,744  - ERROR :  192.168.149.129 linux nic plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 22, in linux
+    interfaces_info = self.linux_interfaces()
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 43, in linux_interfaces
+    ifaces = self._interfaces_ip(cmd1 + '\n' + cmd2)
+TypeError: can't concat str to bytes
+
+2020-04-03 17:53:12,161  - ERROR :  192.168.149.129 linux cpu plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 21, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 42, in parse
+    for item in content.split('\n\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:53:12,315  - ERROR :  192.168.149.129 linux disk plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 38, in parse
+    for row_line in content.split("\n\n\n\n"):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:53:12,468  - ERROR :  192.168.149.129 linux mainboard plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 20, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 37, in parse
+    for item in content.split('\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:53:12,656  - ERROR :  192.168.149.129 linux memory plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 46, in parse
+    devices = content.split('Memory Device')
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-03 17:53:12,949  - ERROR :  192.168.149.129 linux nic plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 22, in linux
+    interfaces_info = self.linux_interfaces()
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 43, in linux_interfaces
+    ifaces = self._interfaces_ip(cmd1 + '\n' + cmd2)
+TypeError: can't concat str to bytes
+
+2020-04-07 15:52:28,523  - ERROR :  192.168.149.129 linux cpu plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 21, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 42, in parse
+    for item in content.split('\n\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 15:52:28,687  - ERROR :  192.168.149.129 linux disk plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 38, in parse
+    for row_line in content.split("\n\n\n\n"):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 15:52:28,849  - ERROR :  192.168.149.129 linux mainboard plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 20, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 37, in parse
+    for item in content.split('\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 15:52:29,024  - ERROR :  192.168.149.129 linux memory plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 46, in parse
+    devices = content.split('Memory Device')
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 15:52:29,330  - ERROR :  192.168.149.129 linux nic plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 22, in linux
+    interfaces_info = self.linux_interfaces()
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 43, in linux_interfaces
+    ifaces = self._interfaces_ip(cmd1 + '\n' + cmd2)
+TypeError: can't concat str to bytes
+
+2020-04-07 15:55:50,051  - ERROR :  192.168.149.129 linux cpu plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 21, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 42, in parse
+    for item in content.split('\n\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 15:55:50,198  - ERROR :  192.168.149.129 linux disk plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 38, in parse
+    for row_line in content.split("\n\n\n\n"):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 15:55:50,356  - ERROR :  192.168.149.129 linux mainboard plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 20, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 37, in parse
+    for item in content.split('\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 15:55:50,508  - ERROR :  192.168.149.129 linux memory plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 46, in parse
+    devices = content.split('Memory Device')
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 15:55:50,814  - ERROR :  192.168.149.129 linux nic plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 22, in linux
+    interfaces_info = self.linux_interfaces()
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 43, in linux_interfaces
+    ifaces = self._interfaces_ip(cmd1 + '\n' + cmd2)
+TypeError: can't concat str to bytes
+
+2020-04-07 15:58:15,372  - ERROR :  192.168.149.129 linux cpu plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 21, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 42, in parse
+    for item in content.split('\n\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 15:58:15,528  - ERROR :  192.168.149.129 linux disk plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 38, in parse
+    for row_line in content.split("\n\n\n\n"):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 15:58:15,702  - ERROR :  192.168.149.129 linux mainboard plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 20, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 37, in parse
+    for item in content.split('\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 15:58:15,856  - ERROR :  192.168.149.129 linux memory plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 46, in parse
+    devices = content.split('Memory Device')
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 15:58:16,178  - ERROR :  192.168.149.129 linux nic plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 22, in linux
+    interfaces_info = self.linux_interfaces()
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 43, in linux_interfaces
+    ifaces = self._interfaces_ip(cmd1 + '\n' + cmd2)
+TypeError: can't concat str to bytes
+
+2020-04-07 16:01:33,756  - ERROR :  192.168.149.129 linux cpu plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 43, in parse
+    for item in content.split('\n\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:01:33,907  - ERROR :  192.168.149.129 linux disk plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 38, in parse
+    for row_line in content.split("\n\n\n\n"):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:01:34,055  - ERROR :  192.168.149.129 linux mainboard plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 20, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 37, in parse
+    for item in content.split('\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:01:34,210  - ERROR :  192.168.149.129 linux memory plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 46, in parse
+    devices = content.split('Memory Device')
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:01:34,555  - ERROR :  192.168.149.129 linux nic plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 22, in linux
+    interfaces_info = self.linux_interfaces()
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 43, in linux_interfaces
+    ifaces = self._interfaces_ip(cmd1 + '\n' + cmd2)
+TypeError: can't concat str to bytes
+
+2020-04-07 16:02:06,773  - ERROR :  192.168.149.129 linux cpu plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 21, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 42, in parse
+    for item in content.split('\n\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:02:06,921  - ERROR :  192.168.149.129 linux disk plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 38, in parse
+    for row_line in content.split("\n\n\n\n"):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:02:07,091  - ERROR :  192.168.149.129 linux mainboard plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 20, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 37, in parse
+    for item in content.split('\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:02:07,248  - ERROR :  192.168.149.129 linux memory plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 46, in parse
+    devices = content.split('Memory Device')
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:02:07,552  - ERROR :  192.168.149.129 linux nic plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 22, in linux
+    interfaces_info = self.linux_interfaces()
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 43, in linux_interfaces
+    ifaces = self._interfaces_ip(cmd1 + '\n' + cmd2)
+TypeError: can't concat str to bytes
+
+2020-04-07 16:03:13,624  - ERROR :  192.168.149.129 linux cpu plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 21, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 42, in parse
+    for item in content.split('\n\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:03:13,774  - ERROR :  192.168.149.129 linux disk plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 38, in parse
+    for row_line in content.split("\n\n\n\n"):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:03:13,921  - ERROR :  192.168.149.129 linux mainboard plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 20, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 37, in parse
+    for item in content.split('\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:03:14,072  - ERROR :  192.168.149.129 linux memory plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 46, in parse
+    devices = content.split('Memory Device')
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:03:14,375  - ERROR :  192.168.149.129 linux nic plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 22, in linux
+    interfaces_info = self.linux_interfaces()
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 43, in linux_interfaces
+    ifaces = self._interfaces_ip(cmd1 + '\n' + cmd2)
+TypeError: can't concat str to bytes
+
+2020-04-07 16:03:39,918  - ERROR :  192.168.149.129 linux cpu plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\cpu.py", line 43, in parse
+    for item in content.split('\n\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:03:40,067  - ERROR :  192.168.149.129 linux disk plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 38, in parse
+    for row_line in content.split("\n\n\n\n"):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:03:40,228  - ERROR :  192.168.149.129 linux mainboard plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 20, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 37, in parse
+    for item in content.split('\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:03:40,390  - ERROR :  192.168.149.129 linux memory plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 46, in parse
+    devices = content.split('Memory Device')
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:03:40,688  - ERROR :  192.168.149.129 linux nic plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 22, in linux
+    interfaces_info = self.linux_interfaces()
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 43, in linux_interfaces
+    ifaces = self._interfaces_ip(cmd1 + '\n' + cmd2)
+TypeError: can't concat str to bytes
+
+2020-04-07 16:04:28,354  - ERROR :  192.168.149.129 linux disk plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\disk.py", line 38, in parse
+    for row_line in content.split("\n\n\n\n"):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:04:28,552  - ERROR :  192.168.149.129 linux mainboard plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 20, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\main_board.py", line 37, in parse
+    for item in content.split('\n'):
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:04:28,710  - ERROR :  192.168.149.129 linux memory plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 22, in linux
+    response.data = self.parse(output)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\memory.py", line 46, in parse
+    devices = content.split('Memory Device')
+TypeError: a bytes-like object is required, not 'str'
+
+2020-04-07 16:04:29,019  - ERROR :  192.168.149.129 linux nic plugin error: Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 22, in linux
+    interfaces_info = self.linux_interfaces()
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\nic.py", line 43, in linux_interfaces
+    ifaces = self._interfaces_ip(cmd1 + '\n' + cmd2)
+TypeError: can't concat str to bytes
+
+2020-04-07 16:58:32,217  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 16:58:50,279  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 16:59:21,941  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:28:25,369  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:28:25,724  - ERROR :  192.168.149.139 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:29:25,828  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:29:26,223  - ERROR :  192.168.149.139 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:29:44,503  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:29:44,865  - ERROR :  192.168.149.139 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:30:06,930  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:30:07,255  - ERROR :  192.168.149.139 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:30:47,338  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 18, in os_platform
+    output = self.exec_shell_cmd('uname')
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 60, in exec_shell_cmd
+    output,output_error = func(cmd)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 47, in ssh
+    return result,result_error
+NameError: name 'result_error' is not defined
+
+2020-04-07 17:30:47,691  - ERROR :  192.168.149.139 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 18, in os_platform
+    output = self.exec_shell_cmd('uname')
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 60, in exec_shell_cmd
+    output,output_error = func(cmd)
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\base.py", line 47, in ssh
+    return result,result_error
+NameError: name 'result_error' is not defined
+
+2020-04-07 17:33:27,272  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:33:27,635  - ERROR :  192.168.149.139 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:33:56,819  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:33:57,168  - ERROR :  192.168.149.139 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:34:14,867  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:34:15,225  - ERROR :  192.168.149.139 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:34:44,799  - ERROR :  192.168.149.129 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
+2020-04-07 17:34:45,220  - ERROR :  192.168.149.139 BasicPlugin Error:Traceback (most recent call last):
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 54, in linux
+    'os_platform': self.os_platform(),
+  File "D:\PyChram-progect\my学习\web学习\MyAutoClient\src\plugins\basic.py", line 19, in os_platform
+    output =str(output, encoding = "utf-8")
+TypeError: decoding to str: need a bytes-like object, tuple found
+
